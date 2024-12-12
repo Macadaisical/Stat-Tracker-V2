@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		79F7CF9B2D089D4F002576C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79F7CF7F2D089D4D002576C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F7CF862D089D4D002576C3;
+			remoteInfo = "Stat Tracker V2";
+		};
+		79F7CFA52D089D4F002576C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79F7CF7F2D089D4D002576C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F7CF862D089D4D002576C3;
+			remoteInfo = "Stat Tracker V2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79F7CF872D089D4D002576C3 /* Stat Tracker V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stat Tracker V2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F7CF9A2D089D4F002576C3 /* Stat Tracker V2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stat Tracker V2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F7CFA42D089D4F002576C3 /* Stat Tracker V2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stat Tracker V2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		79F7CF892D089D4D002576C3 /* Stat Tracker V2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Stat Tracker V2";
+			sourceTree = "<group>";
+		};
+		79F7CF9D2D089D4F002576C3 /* Stat Tracker V2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Stat Tracker V2Tests";
+			sourceTree = "<group>";
+		};
+		79F7CFA72D089D4F002576C3 /* Stat Tracker V2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Stat Tracker V2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79F7CF842D089D4D002576C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F7CF972D089D4F002576C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F7CFA12D089D4F002576C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79F7CF7E2D089D4D002576C3 = {
+			isa = PBXGroup;
+			children = (
+				79F7CF892D089D4D002576C3 /* Stat Tracker V2 */,
+				79F7CF9D2D089D4F002576C3 /* Stat Tracker V2Tests */,
+				79F7CFA72D089D4F002576C3 /* Stat Tracker V2UITests */,
+				79F7CF882D089D4D002576C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79F7CF882D089D4D002576C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79F7CF872D089D4D002576C3 /* Stat Tracker V2.app */,
+				79F7CF9A2D089D4F002576C3 /* Stat Tracker V2Tests.xctest */,
+				79F7CFA42D089D4F002576C3 /* Stat Tracker V2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79F7CF862D089D4D002576C3 /* Stat Tracker V2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F7CFAE2D089D4F002576C3 /* Build configuration list for PBXNativeTarget "Stat Tracker V2" */;
+			buildPhases = (
+				79F7CF832D089D4D002576C3 /* Sources */,
+				79F7CF842D089D4D002576C3 /* Frameworks */,
+				79F7CF852D089D4D002576C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				79F7CF892D089D4D002576C3 /* Stat Tracker V2 */,
+			);
+			name = "Stat Tracker V2";
+			packageProductDependencies = (
+			);
+			productName = "Stat Tracker V2";
+			productReference = 79F7CF872D089D4D002576C3 /* Stat Tracker V2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79F7CF992D089D4F002576C3 /* Stat Tracker V2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F7CFB12D089D4F002576C3 /* Build configuration list for PBXNativeTarget "Stat Tracker V2Tests" */;
+			buildPhases = (
+				79F7CF962D089D4F002576C3 /* Sources */,
+				79F7CF972D089D4F002576C3 /* Frameworks */,
+				79F7CF982D089D4F002576C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79F7CF9C2D089D4F002576C3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				79F7CF9D2D089D4F002576C3 /* Stat Tracker V2Tests */,
+			);
+			name = "Stat Tracker V2Tests";
+			packageProductDependencies = (
+			);
+			productName = "Stat Tracker V2Tests";
+			productReference = 79F7CF9A2D089D4F002576C3 /* Stat Tracker V2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79F7CFA32D089D4F002576C3 /* Stat Tracker V2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F7CFB42D089D4F002576C3 /* Build configuration list for PBXNativeTarget "Stat Tracker V2UITests" */;
+			buildPhases = (
+				79F7CFA02D089D4F002576C3 /* Sources */,
+				79F7CFA12D089D4F002576C3 /* Frameworks */,
+				79F7CFA22D089D4F002576C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79F7CFA62D089D4F002576C3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				79F7CFA72D089D4F002576C3 /* Stat Tracker V2UITests */,
+			);
+			name = "Stat Tracker V2UITests";
+			packageProductDependencies = (
+			);
+			productName = "Stat Tracker V2UITests";
+			productReference = 79F7CFA42D089D4F002576C3 /* Stat Tracker V2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79F7CF7F2D089D4D002576C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					79F7CF862D089D4D002576C3 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					79F7CF992D089D4F002576C3 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 79F7CF862D089D4D002576C3;
+					};
+					79F7CFA32D089D4F002576C3 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 79F7CF862D089D4D002576C3;
+					};
+				};
+			};
+			buildConfigurationList = 79F7CF822D089D4D002576C3 /* Build configuration list for PBXProject "Stat Tracker V2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79F7CF7E2D089D4D002576C3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 79F7CF882D089D4D002576C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79F7CF862D089D4D002576C3 /* Stat Tracker V2 */,
+				79F7CF992D089D4F002576C3 /* Stat Tracker V2Tests */,
+				79F7CFA32D089D4F002576C3 /* Stat Tracker V2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79F7CF852D089D4D002576C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F7CF982D089D4F002576C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F7CFA22D089D4F002576C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79F7CF832D089D4D002576C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F7CF962D089D4F002576C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F7CFA02D089D4F002576C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79F7CF9C2D089D4F002576C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79F7CF862D089D4D002576C3 /* Stat Tracker V2 */;
+			targetProxy = 79F7CF9B2D089D4F002576C3 /* PBXContainerItemProxy */;
+		};
+		79F7CFA62D089D4F002576C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79F7CF862D089D4D002576C3 /* Stat Tracker V2 */;
+			targetProxy = 79F7CFA52D089D4F002576C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79F7CFAC2D089D4F002576C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79F7CFAD2D089D4F002576C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		79F7CFAF2D089D4F002576C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Stat Tracker V2/Stat_Tracker_V2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stat Tracker V2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelpushergraphics.Stat-Tracker-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		79F7CFB02D089D4F002576C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Stat Tracker V2/Stat_Tracker_V2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stat Tracker V2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelpushergraphics.Stat-Tracker-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		79F7CFB22D089D4F002576C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelpushergraphics.Stat-Tracker-V2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stat Tracker V2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stat Tracker V2";
+			};
+			name = Debug;
+		};
+		79F7CFB32D089D4F002576C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelpushergraphics.Stat-Tracker-V2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stat Tracker V2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stat Tracker V2";
+			};
+			name = Release;
+		};
+		79F7CFB52D089D4F002576C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelpushergraphics.Stat-Tracker-V2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Stat Tracker V2";
+			};
+			name = Debug;
+		};
+		79F7CFB62D089D4F002576C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelpushergraphics.Stat-Tracker-V2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Stat Tracker V2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79F7CF822D089D4D002576C3 /* Build configuration list for PBXProject "Stat Tracker V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F7CFAC2D089D4F002576C3 /* Debug */,
+				79F7CFAD2D089D4F002576C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F7CFAE2D089D4F002576C3 /* Build configuration list for PBXNativeTarget "Stat Tracker V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F7CFAF2D089D4F002576C3 /* Debug */,
+				79F7CFB02D089D4F002576C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F7CFB12D089D4F002576C3 /* Build configuration list for PBXNativeTarget "Stat Tracker V2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F7CFB22D089D4F002576C3 /* Debug */,
+				79F7CFB32D089D4F002576C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F7CFB42D089D4F002576C3 /* Build configuration list for PBXNativeTarget "Stat Tracker V2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F7CFB52D089D4F002576C3 /* Debug */,
+				79F7CFB62D089D4F002576C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79F7CF7F2D089D4D002576C3 /* Project object */;
+}
