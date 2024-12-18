@@ -1,8 +1,12 @@
-import SwiftData
-import Foundation
+// Stat Tracker V2 Code Rewritten with Improvements
 
+import SwiftUI
+import SwiftData
+import UserNotifications
+
+// MARK: - DataManager
 struct DataManager {
-    
+
     // MARK: - Preload Categories
     static func preloadCategories(context: ModelContext) {
         do {
@@ -19,7 +23,7 @@ struct DataManager {
                 print("Categories preloaded successfully.")
             }
         } catch {
-            print("Error during preloadCategories: \(error.localizedDescription)")
+            handleError(error, message: "Error during preloadCategories")
         }
     }
 
@@ -40,7 +44,7 @@ struct DataManager {
             try context.save()
             print("Daily input added successfully.")
         } catch {
-            print("Error saving daily input: \(error.localizedDescription)")
+            handleError(error, message: "Error saving daily input")
         }
     }
 
@@ -55,7 +59,7 @@ struct DataManager {
             try context.save()
             print("Monthly totals reset successfully.")
         } catch {
-            print("Error resetting monthly totals: \(error.localizedDescription)")
+            handleError(error, message: "Error resetting monthly totals")
         }
     }
 
@@ -77,8 +81,24 @@ struct DataManager {
             print("Data exported to: \(path)")
             return path
         } catch {
-            print("Error exporting to CSV: \(error.localizedDescription)")
+            handleError(error, message: "Error exporting to CSV")
             return nil
         }
     }
+
+    // MARK: - Error Handler
+    static func handleError(_ error: Error, message: String) {
+        print("\(message): \(error.localizedDescription)")
+        DispatchQueue.main.async {
+            let alert = NSAlert()
+            alert.messageText = "Error"
+            alert.informativeText = message
+            alert.alertStyle = .critical
+            alert.runModal()
+        }
+    }
 }
+
+
+
+

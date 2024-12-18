@@ -1,6 +1,7 @@
 import Foundation
 import SwiftData
 
+// MARK: - DailyInput Model
 @Model
 final class DailyInput {
     @Attribute(.unique) var id: UUID // Unique identifier
@@ -23,3 +24,4 @@ final class DailyInput {
         return currentMonth == inputMonth
     }
 }
+

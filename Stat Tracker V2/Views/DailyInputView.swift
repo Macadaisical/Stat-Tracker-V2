@@ -9,43 +9,67 @@
 import SwiftUI
 import SwiftData
 
+// MARK: - DailyInputView
 struct DailyInputView: View {
     @Environment(\.modelContext) private var context
-    @Query(sort: \Category.name, order: .forward) private var categories: [Category]
+    @Query(sort: \Category.sortOrder, order: .forward) private var categories: [Category]
 
     @State private var dailyInputs: [UUID: Int] = [:]
     @State private var showSaveConfirmation = false
+    @State private var isEditing = false
 
     var body: some View {
         NavigationView {
-            List {
-                ForEach(categories) { category in
-                    HStack {
-                        Text(category.name)
-                            .lineLimit(2)
-                            .minimumScaleFactor(0.5)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.trailing, 10)
+            VStack {
+                if isEditing {
+                    Text("Drag to reorder categories")
+                        .font(.footnote)
+                        .foregroundColor(.gray)
+                        .padding()
+                }
 
-                        IncrementableTextField(value: Binding(
-                            get: { dailyInputs[category.id] ?? 0 },
-                            set: { dailyInputs[category.id] = $0 }
-                        ))
-                        .frame(width: 80)
+                List {
+                    ForEach(categories) { category in
+                        HStack {
+                            Text(category.name)
+                                .lineLimit(2)
+                                .minimumScaleFactor(0.5)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .padding(.trailing, 10)
+                                .accessibilityLabel("Category: \(category.name)")
+
+                            IncrementableTextField(value: Binding(
+                                get: { dailyInputs[category.id] ?? 0 },
+                                set: { dailyInputs[category.id] = $0 }
+                            ))
+                            .frame(width: 80)
+                            .accessibilityLabel("Input value for \(category.name)")
+                        }
                     }
+                    .onMove(perform: isEditing ? moveCategory : nil)
                 }
             }
             .navigationTitle("Daily Input")
             .toolbar {
                 ToolbarItem(placement: .automatic) {
+                    Button(isEditing ? "Done" : "Reorder") {
+                        isEditing.toggle()
+                    }
+                }
+                ToolbarItem(placement: .automatic) {
                     Button("Save") {
                         saveDailyInputs()
                         showSaveConfirmation = true
                     }
+                    .accessibilityLabel("Save inputs")
                 }
             }
             .alert(isPresented: $showSaveConfirmation) {
-                Alert(title: Text("Success"), message: Text("Daily inputs saved successfully."), dismissButton: .default(Text("OK")))
+                Alert(
+                    title: Text("Success"),
+                    message: Text("Daily inputs saved successfully."),
+                    dismissButton: .default(Text("OK"))
+                )
             }
         }
     }
@@ -60,7 +84,22 @@ struct DailyInputView: View {
             try context.save()
             dailyInputs.removeAll()
         } catch {
-            print("Failed to save daily inputs: \(error)")
+            DataManager.handleError(error, message: "Failed to save daily inputs")
+        }
+    }
+
+    private func moveCategory(from source: IndexSet, to destination: Int) {
+        var reorderedCategories = categories
+        reorderedCategories.move(fromOffsets: source, toOffset: destination)
+
+        for (index, category) in reorderedCategories.enumerated() {
+            category.sortOrder = index
+        }
+
+        do {
+            try context.save()
+        } catch {
+            DataManager.handleError(error, message: "Failed to reorder categories")
         }
     }
 }
